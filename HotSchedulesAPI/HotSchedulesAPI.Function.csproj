@@ -8,7 +8,7 @@
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\StockPicker.Sources\StockPicker.Sources.csproj" />
+    <ProjectReference Include="..\HotSchedulesAPI.Sources\HotSchedulesAPI.Sources.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
