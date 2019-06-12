@@ -16,7 +16,7 @@ namespace HotSchedulesAPI.Function
 
             log.LogInformation("BEGIN GetTimeSeriesDailyAdjusted");
 
-            HotSchedulesAPIClient client = new HotSchedulesAPIClient("GIRGUKTU3NU0IJF3", "compact");
+            AlphaVantageClient client = new AlphaVantageClient("GIRGUKTU3NU0IJF3", "compact");
             await client.GetTimeSeriesDailyAdjusted("MSFT");
         }
     }
